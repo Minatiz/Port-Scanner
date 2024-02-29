@@ -71,6 +71,8 @@ def get_open_ports(target, port_range, verbose=False):
 
 
 def main():
+
+    # Experiment here:
     # # get_open_ports("266.255.9.10", [440, 450], True)  # Failure ip
     # get_open_ports("scanme.nmap", [440, 450], True)  # Failure hostname
     # get_open_ports("scanme.nmap.org", [20, 80], True)  # Correct hostname
